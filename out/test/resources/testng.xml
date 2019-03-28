@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="Login" >
+    <classes>
+        <class name="com.routePerfect.tests.LoginTest" />
+
+    </classes>
+
+    </test>
+    <test name="TripPlanner" >
+        <classes>
+            <class name="com.routePerfect.tests.RouteBuildingTest" />
+
+        </classes>
+    </test>
+
+    <test name="Customize">
+    <classes>
+        <class name="com.routePerfect.tests.IncludeDestinationTest"/>
+    </classes>
+    </test>
+</suite>
